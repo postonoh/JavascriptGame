@@ -1,26 +1,23 @@
-<!DOCTYPE html>
-<head>
-    <title>New Game</title>
-    <meta charset="UTF-8"/>
-
+<html>
+  <head>
+    <title>Brick Breaker</title>
+    <meta charset="UTF-8" />
     <style>
-    #gameScreen{
+      #gameScreen {
         border: 1px solid black;
-    }
-    img{
+      }
+      img {
         display: none;
-
-    }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
+    <img id="img_ball" src="assets/images/ball.png" />
     <img id="img_brick" src="assets/images/brick.png" />
-    <img id="img_ball" src="assets/images/ball.png"/>
 
-    <canvas id="gameScreen" width="800" height="600">
+    <canvas id="gameScreen" width="800" height="600"></canvas>
 
-    </canvas>
     <script src="src/index.js"></script>
-</body>
+  </body>
 </html>
