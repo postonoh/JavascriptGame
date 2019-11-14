@@ -1,13 +1,13 @@
 export default class Ball {
-  constructor(gameWidth, gameHeight) {
+  constructor(game) {
     this.image = document.getElementById("img_ball");
+
+    this.gameWidth = game.gameWidth;
+    this.gameHeight = game.gameHeight;
 
     this.position = { x: 10, y: 10 };
     this.speed = { x: 3, y: 3 };
     this.size = 20;
-
-    this.gameWidth = gameWidth;
-    this.gameHeight = gameHeight;
   }
 
   draw(ctx) {
