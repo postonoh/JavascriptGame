@@ -1,7 +1,7 @@
 {
   "name": "parcel-sandbox",
   "version": "1.0.0",
-  "description": "Javascript Game"
+  "description": "Javascript Game Example",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
